@@ -1,2 +1,0 @@
-class Produc < ApplicationRecord
-end
