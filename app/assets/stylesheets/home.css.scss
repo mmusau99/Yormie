@@ -1,9 +1,25 @@
 .container-fluid {
 	background-color: white;
 	border: none;
+	font-size: 23px;
 }
 .navbar.navbar-inverse{
  border: 0;
  -webkit-box-shadow: none;
  box-shadow: none;
+
+}
+.navbar-brand {
+	font-size: 30px;
+}
+#logo{
+	font-size: 25px;
+
+}
+#header-img{
+	display: block;
+    margin: auto;
+    width: 40%;
+  
+
 }
