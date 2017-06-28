@@ -2,11 +2,17 @@
 	background-color: white;
 	border: none;
 	font-size: 23px;
+	// background-image: url("http://res.cloudinary.com/lx9gdutds/image/upload/v1498675254/updated-header_eh8c27.png");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:40%
 }
 .navbar.navbar-inverse{
  border: 0;
  -webkit-box-shadow: none;
  box-shadow: none;
+ width:0px;
 
 }
 .navbar-brand {
@@ -46,6 +52,19 @@ font-size:16px;
 #login {
 font-size:16px;
 
+}
+.nav.navbar-nav{
+	 display: block;
+    width: 10px;
+    
+}
+body {
+	background-image: url("http://res.cloudinary.com/lx9gdutds/image/upload/v1486674895/Anais_Black_White_fmx9wq.png");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center 10px;
+
+	
 }
 
 // @media (min-width: 768px) {
