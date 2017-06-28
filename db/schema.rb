@@ -19,8 +19,10 @@ ActiveRecord::Schema.define(version: 20170626232255) do
     t.string   "name"
     t.text     "description"
     t.integer  "float"
+    t.integer  "user_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.index ["user_id"], name: "index_products_on_user_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|
