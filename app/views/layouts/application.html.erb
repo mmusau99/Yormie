@@ -20,8 +20,10 @@
 	    		<%=link_to "Yormie",  products_path, class: "navbar-brand", id:"logo" %>
 	    	</div>
 	    	<ul class="nav navbar-nav">
-	      	
 	      	<li><%= link_to "Register", new_user_registration_path, id:"register" %></li>
+	      	<li><%= link_to "Login", new_user_session_path, id:"login" %></li>
+	      	<li><%= link_to "Logout", destroy_user_session_path, :method => :delete, id:"login" %></li>
+
 	       </ul>
 	  	</div>
 		</nav>
